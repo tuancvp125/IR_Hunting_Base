@@ -3,6 +3,9 @@
 ## Sử dụng Netcraft
 ![image](https://github.com/user-attachments/assets/9fffe5d2-48a5-493b-8816-05316ce49278)
 
+> rDNS
+- Bình thường thì khi nhập 1 domain name, user sẽ đc trả về IP do DNS look up làm việc, còn rDNS thì ngược lại
+
 *Ở đây sẽ hiển thị những thông tin cơ bản*
 
 ![image](https://github.com/user-attachments/assets/80c1ac28-ee71-48e3-a49c-e7bec70bab61)

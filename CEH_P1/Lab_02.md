@@ -32,6 +32,10 @@ Dựa vào những thông tin ở trên ta có thể thấy:
     subnets within this range và mnt-route: manages the routing in4 for IP range.
   - Maintainer có vai trò đảm bảo data mà WHOIS ghi nhận là chính xác.
   - Nhưng những thông tin này được cập nhật cũng đã khá lâu (gần nhất là 2022).
+  - Cái status **ALLOCATED PORTABLE** nghĩa là: ALLOCATED - dãy IP range đc manage bởi 1 regional org
+    trong trường hợp này là APNIC. Còn PORTABLE - dchi này có thể đc truy cập ko giới hạn
+  - Phần origin *AS135905* (ASN : Autonomous System Number) mục đích là để những cái network khác có thể
+    reach được đến cái IP-range này. Còn phần chữ và số đại diện cho 1 org (VNPT).
 
 
 

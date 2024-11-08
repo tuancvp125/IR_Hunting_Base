@@ -35,7 +35,7 @@ Dựa vào những thông tin ở trên ta có thể thấy:
   - Cái status **ALLOCATED PORTABLE** nghĩa là: ALLOCATED - dãy IP range đc manage bởi 1 regional org
     trong trường hợp này là APNIC. Còn PORTABLE - dchi này có thể đc truy cập ko giới hạn
   - Phần origin *AS135905* (ASN : Autonomous System Number) mục đích là để những cái network khác có thể
-    reach được đến cái IP-range này. Còn phần chữ và số đại diện cho 1 org (VNPT).
+    reach được đến cái subnet này (subnet 14.225.10.0/24). Còn phần chữ và số đại diện cho 1 org (VNPT).
 
 
 

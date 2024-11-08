@@ -24,7 +24,14 @@
 
 ![image](https://github.com/user-attachments/assets/637f5e26-03ec-4587-97c6-b2d4aa7c4da0)
 
-![image](https://github.com/user-attachments/assets/3ef20539-ec22-4857-8a4d-f3e77b4a5aa5)
+![image](https://github.com/user-attachments/assets/8e4268cd-947d-42bb-a0c3-760d9e7688d5)
+
+Dựa vào những thông tin ở trên ta có thể thấy:
+  - Ngoài những thông tin cơ bản như tên tổ chức, địa chỉ, thông tin của admin website, mik còn bt
+    thêm về mnt-by: manage entry for IP range, mnt-lower: manages the lower-level assignments of IP blocks or
+    subnets within this range và mnt-route: manages the routing in4 for IP range.
+  - Maintainer có vai trò đảm bảo data mà WHOIS ghi nhận là chính xác.
+  - Nhưng những thông tin này được cập nhật cũng đã khá lâu (gần nhất là 2022).
 
 
 

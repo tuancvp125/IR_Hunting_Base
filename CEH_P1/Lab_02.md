@@ -37,6 +37,12 @@ Dựa vào những thông tin ở trên ta có thể thấy:
   - Phần origin *AS135905* (ASN : Autonomous System Number) mục đích là để những cái network khác có thể
     reach được đến cái subnet này (subnet 14.225.10.0/24). Còn phần chữ và số đại diện cho 1 org (VNPT).
 
+## Sử dụng Ping và Traceroute
+> TTL
+
+Số lượng hop mà nó sẽ đi qua. Cứ mỗi hop đi qua thì value TTL sẽ giảm đi 1. TTL giúp packets ko bị loop
+  khi truyền trong mạng.
+
 
 
 

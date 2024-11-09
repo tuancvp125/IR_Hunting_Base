@@ -7,7 +7,8 @@
 - Bình thường thì khi nhập 1 domain name, user sẽ đc trả về IP do DNS look up làm việc, còn rDNS thì ngược lại
 
 > Tại sao quét kenh14 lại ra ip của vnpt?
-  Đây là virtual web-hosting do bên kenh14 thuê của vnpt. Cạn ip @@
+
+Đây là virtual web-hosting do bên kenh14 thuê của vnpt. Cạn ip @@
 
 *Ở đây sẽ hiển thị những thông tin cơ bản*
 

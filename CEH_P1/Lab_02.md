@@ -43,6 +43,46 @@ Dựa vào những thông tin ở trên ta có thể thấy:
 Số lượng hop mà nó sẽ đi qua. Cứ mỗi hop đi qua thì value TTL sẽ giảm đi 1. TTL giúp packets ko bị loop
   khi truyền trong mạng.
 
+## Sử dụng NMAP
+
+## Kiểm tra host up/down = cách gửi ICMP packet
+
+![image](https://github.com/user-attachments/assets/1c4f371b-f375-40b9-abbf-3b3cbda4ec73)
+
+
+### Full Open Scan
+
+![image](https://github.com/user-attachments/assets/1619bb80-6641-473a-83b9-e1c86e8bbcc3)
+
+![image](https://github.com/user-attachments/assets/8aa8d572-70fb-4bd9-9925-d4e76494587f)
+
+Quá trình này thực hiện 3-handshake (bắt đầu = SYN, trả về SYN-ACK và kthuc = ACK từ sender) sau khi
+hoàn tất sender đóng connection = gửi RST. Đó là trường hợp server nhận connection (trả về SYN-ACK), nếu ko nhận sẽ trả về RST. 
+
+## Hafl-Open Scan
+
+![image](https://github.com/user-attachments/assets/d806fc03-b639-4f28-aa0a-f0890bccc000)
+
+Cách này thì nhanh hơn cách trên vì sau khi kết nối thành công từ server (nhận gói SYN-ACK), nó sẽ gửi RST luôn mà ko gửi ACK xong
+RST (đóng connection luôn).
+
+
+### ACK Probe Scanning
+
+![image](https://github.com/user-attachments/assets/4523c3b8-557b-4862-9627-ae279f8baa40)
+
+Cái này thì cho biết rằng tường lửa nó chặn những port nào. Ở đây thì tất cả các port ko bị chặn nhưng chưa chắc đã được kết nối.
+Muốn chi tiết hơn đến phần sau
+
+### Hệ Điều Hành đang chạy
+
+![image](https://github.com/user-attachments/assets/6c20792a-ff13-41d0-abac-5f4829418de2)
+
+
+
+
+
+
 
 
 

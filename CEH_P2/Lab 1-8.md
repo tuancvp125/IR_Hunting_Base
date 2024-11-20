@@ -78,7 +78,20 @@ tab còn bit 0 tương ứng với space*
 
 *Đây là lý do tại sao mình sẽ nhìn thấy 1 loạt tab và space (trống 2 dòng dưới cùng). Nó là 2 dòng đại diện cho cái hidden text*
 
+# NTFS / FAT32
 
+> Một chút về 2 cái này
+
+NTFS và FAT32 là 2 file systems để quản lý toàn bộ file trên máy tính. NTFS được sử dụng bởi Windows còn FAT32 thì méo rõ <br>
+vì ko thấy trên Win còn Linux thì dùng ext.
+
+Tác dụng của cái này là để quản lý file, chuyển dữ liệu, đọc, viết, xem file ... Ncl tất cả những gì mình có thể làm trên file <br>
+đều do thằng này quản lý. Ví dụ muốn đọc file của Windows trên HĐH Linux thì bắt buộc phải sdung phần mềm thứ 3 để đọc vì (NTFS và ext) <br>
+là 2 cái hoàn toàn khác nhau.
+
+> ADS (Alternative Data Stream)
+
+Là 1 cái feature của NTFS có thể hidden 1 file trong 1 file mà ko tác động đến file đó (ko thay đổi size của file, ...)
 
 
 

@@ -1,7 +1,6 @@
-# New things
-## Hash function
-## Aircrack-ng tools
-### Actual activities in a wireless network
+# Hash function
+# Aircrack-ng tools
+## Actual activities in a wireless network
 
 Thông thường khi kết nối tới 1 wireless, mik sẽ dùng OSA (Open System Authentication), có những bước sau đây: <br>
 
@@ -27,7 +26,64 @@ Nó như 1 cầu nối giữa thiết bị và mạng. Nó sẽ gửi những pa
 3. Mbit rate
 4. Những channel trong network nào đang hoạt động
 
-### Discovering network
+## Discovering network
+
+# Event Viewer
+![image](https://github.com/user-attachments/assets/193d98d7-89db-4e70-b341-788858c64224)
+
+Lists log trong windows với các Level lỗi từ thấp tới cao như (Information, Warning, Error, Critical)
+
+![image](https://github.com/user-attachments/assets/e1d3f61c-ae5f-414d-8891-28098fea85ca)
+
+Hiển thị các loại lỗi mà mình muốn xem
+
+![image](https://github.com/user-attachments/assets/dc802fc3-7073-4fa3-9c08-117675a07dd7)
+
+Có thể filter các loại log trong đề mục
+
+![image](https://github.com/user-attachments/assets/245f64c7-625a-4f67-8c69-4fe1b5868296)
+
+Các option mik có thể làm với mỗi event
+
+***Windows ko hỗ trợ xóa 1 log cụ thể, chỉ có thể xóa 1 loạt logs. Nếu có pải dùng 1 3-party***
+
+# Stego Online
+
+*Image Original*
+
+![Screenshot 2024-10-26 062405](https://github.com/user-attachments/assets/f985511b-3308-4c51-b69c-72a1e0893aee)
+
+*Image encrypted*
+
+![encrypted](https://github.com/user-attachments/assets/a3d7663c-27f3-4d2e-807e-406d5f9cb849)
+
+Sử dụng Stego Online
+
+![image](https://github.com/user-attachments/assets/89e6b3ac-9f05-4086-a43d-13d0958c49c4)
+
+# SNOW steg tool
+![image](https://github.com/user-attachments/assets/503c231c-d92e-4c81-a024-e20941ebac09)
+
+*Tạo 1 message hiện thị trong file input. Với option -p "password" sẽ dùng cho decrypt output, -m "text" sẽ là text ẩn <br>
+mình sẽ giấu trong output file*
+
+![image](https://github.com/user-attachments/assets/209f5e59-c8b9-4572-b8c5-ddd8c4477560)
+
+Để decrypt với cú pháp khá đơn giản
+
+*Cái SNOW này sử dụng phương pháp whitespace steganography. Đầu tiên convert chữ cái ra binary theo ASCII. Với bit 1 tương ứng với <br>
+tab còn bit 0 tương ứng với space*
+
+![image](https://github.com/user-attachments/assets/ad27670d-fe9e-4980-9550-4b64a018e7dd)
+
+*Đây là lý do tại sao mình sẽ nhìn thấy 1 loạt tab và space (trống 2 dòng dưới cùng). Nó là 2 dòng đại diện cho cái hidden text*
+
+
+
+
+
+
+
 
 
 

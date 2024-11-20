@@ -93,6 +93,21 @@ là 2 cái hoàn toàn khác nhau.
 
 Là 1 cái feature của NTFS có thể hidden 1 file trong 1 file mà ko tác động đến file đó (ko thay đổi size của file, ...)
 
+> Practical
+
+![image](https://github.com/user-attachments/assets/4aa8d2aa-9723-4032-914f-1efd156aebf7)
+
+Tạo 1 file 21 bytes
+
+![image](https://github.com/user-attachments/assets/e78d222e-285f-4ead-a709-a3457d000dfd)
+
+Thực hiện ADS 1 hidden message vào file được chọn, vẫn thấy size của file không thay đổi
+
+![image](https://github.com/user-attachments/assets/cc1e745c-1161-4051-83cd-4bcfd24f586f)
+
+Đọc hidden message có trong file
+
+
 
 
 

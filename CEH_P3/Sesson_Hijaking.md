@@ -6,3 +6,12 @@
 
 # XSS Reflected
 ## What?
+Lợi dụng client request từ server, server sẽ respond lại thì lúc này hacker sẽ trả về respond chứa mã độc bao gồm <br>
+user request.
+
+## How?
+### Low level
+![image](https://github.com/user-attachments/assets/fdf93f3b-71f3-4570-be23-e80618d17bc5)
+*Đầu tiên khi vào OWASP ta sẽ view source php*
+
+

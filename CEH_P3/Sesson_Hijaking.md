@@ -43,6 +43,27 @@ Ví dụ ở trên cho ta biết đó là loại Browser-caching, nó sẽ gia h
 mik còn 1 số loại caching như: Server side caching, CDN caching, Application Level caching... Bên cạnh đó đi kèm đó chính là <br>
 những stragegy để caching (sẽ tìm hiểu sau)
 
-3.  
+> $GET
+
+Siêu biến toàn cục (super global variable) dùng để lấy dữ liệu đc gửi qua URL thông qua phương thức GET
+
+Example:
+```http://example.com/index.php?name=Hung&age=30```
+
+Ở đây mình sẽ sử dụng $GET để lấy name và age <br>
+
+```php
+<?php
+$name = $_GET['name']; // "Hung"
+$age = $_GET['age'];   // "30"
+
+echo "Name: " . $name . "<br>";
+echo "Age: " . $age;
+?>
+```
+
+> array_key_exists(key, var)
+
+Kiểm tra có tồn tại khóa *key* ở trong dãy *var* không?
 
 

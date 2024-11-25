@@ -8,6 +8,7 @@ Chạy thử alert
 *Ko chạy được script*
 
 View source:
+
 ![image](https://github.com/user-attachments/assets/336757f8-8fd8-4c24-a22f-07ab56072432)
 
 *Đã thay thế <script> = ''*
@@ -18,12 +19,14 @@ Cái này nó chỉ check lowercase thôi chứ chưa check uppercase nên scrip
 <SCRIPT>alert("Pwned")</script>
 ```
 Kết quả:
+
 ![image](https://github.com/user-attachments/assets/5ef81811-20fd-4c42-a1ba-78e1f64e428c)
 
-# XSS DOM
+# XSS Stored
 
-# XSS stored
+# XSS DOM
 View source:
+
 ![image](https://github.com/user-attachments/assets/f4507537-b30c-4b23-bc6a-591cac4dd1e5)
 
 ```
@@ -44,5 +47,12 @@ if ( array_key_exists( "default", $_GET ) && !is_null ($_GET[ 'default' ]) ) {
 ```
 
 *Không cho excute script ở default tag*
+
+Đầu tiên lấy value của element "default" ở parameter query do GET responsible, sau đó dùng stripos để tìm string <script>. Nếu tìm thấy <br>
+lập tức set về mặc định English và exit.
+
+![image](https://github.com/user-attachments/assets/c61d6fb7-eec8-4760-8f41-bd1c329ef01c)
+*Kể cả khi dùng <SCRIPT> như lỗi med reflected ở trên hì vẫn ko xi nhê*
+
 
 

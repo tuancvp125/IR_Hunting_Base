@@ -30,6 +30,9 @@ Session id của người dùng hiện trong cửa sổ server của attacker
  ![image](https://github.com/user-attachments/assets/71026905-c57d-471c-81db-891455ac4e22)
 
 # XSS Stored
+## Image
+![image](https://github.com/user-attachments/assets/c082869d-0917-47e3-8969-bf88766aff00)
+
 ## Code backend
 ```php
 <?php
@@ -55,5 +58,18 @@ if( isset( $_POST[ 'btnSign' ] ) ) {
 
 ?>
 ```
+> $_POST
 
+Tương tự như $_GET, là 1 super global variable, nó sẽ collect những data được gửi đi bởi HTTP POST method <br>
+Những data này có thể collect từ form fields: input, checkbox, radio, buttons,...
+> trim()
+
+Xóa đi những khoảng trống ở phần đầu.
+> stripslashes()
+
+Xóa đi back_slash (\) from a string. Ở trong những bản cũ của php, nó sẽ tự động thêm back slash vào những special character: ', " <br>
+Việc của mik cần là xóa những cái đó đi để clean string.
+> isset(var)
+
+1 Biến để check xem var đc tạo chưa? Not null -> true. Null -> false
 

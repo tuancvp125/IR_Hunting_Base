@@ -29,6 +29,9 @@ http://127.0.0.1/dvwa/vulnerabilities/xss_d/?default=English%3Cscript%3Ewindow.l
 Session id của người dùng hiện trong cửa sổ server của attacker
  ![image](https://github.com/user-attachments/assets/71026905-c57d-471c-81db-891455ac4e22)
 
-
+# XSS Stored
+## Code backend
+```php
+```
 
 

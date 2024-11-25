@@ -58,6 +58,8 @@ if( isset( $_POST[ 'btnSign' ] ) ) {
 
 ?>
 ```
+*Bảo vệ phần message và name khỏi sql injections. Sau đó thêm vào bảng sql 2 elements message và name*
+
 > $_POST
 
 Tương tự như $_GET, là 1 super global variable, nó sẽ collect những data được gửi đi bởi HTTP POST method <br>
@@ -69,7 +71,12 @@ Xóa đi những khoảng trống ở phần đầu.
 
 Xóa đi back_slash (\) from a string. Ở trong những bản cũ của php, nó sẽ tự động thêm back slash vào những special character: ', " <br>
 Việc của mik cần là xóa những cái đó đi để clean string.
+
+> $_GLOBALS
+
+include POST and GET
 > isset(var)
 
 1 Biến để check xem var đc tạo chưa? Not null -> true. Null -> false
+
 

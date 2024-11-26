@@ -133,3 +133,12 @@ trang kenh14.vn nó đc host bởi vnpt.
 2. VPS hosting
 
 ![image](https://github.com/user-attachments/assets/aa1ae248-6810-42bb-bf6c-15c459ade30b)
+
+## Use case
+Sau khi tìm hiểu thì thông thường với small business với 1 lượng low traffic sẽ sử dụng shared web hosting, pre-configured software <br>
+basic security feature (SSL) nhưng resources (RAM, CPU, Bandwidth...) lại share với những web khác. --> Tiết kiệm chi phí
+
+Ngược lại đối với những doanh nghiệp lớn hơn sẽ dùng VPS hosting, các resources được isolated với nhau --> bảo đảm tính security hơn <br>
+Có thể handle 1 lượng lớn traffic trong peak seasons. Ngoài ra với root access thì sẽ ko bị limited như shared-hosting.
+
+# Header Content-Length trong 1 HTTP request / Content multipart/form - data

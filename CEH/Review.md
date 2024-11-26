@@ -104,3 +104,32 @@ else:
     print("Authentication failed.")
 
 ```
+
+# Virtual Host trong 1 web server
+
+Theo mik hiểu thì nó là 1 web server cha có thể hosts đc nhiều server con. Nó giống cái ví dụ ở CEH_P1, khi thu thập thông tin về <br>
+trang kenh14.vn nó đc host bởi vnpt.
+
+1. Những cái host con sẽ shared resources với nhau (CPU, RAM, Memory,...) nhưng sẽ ko interface nhau
+2. Sử dụng công nghệ Virtualization like Hypervisor hay Container (docker).
+3. Những cái host này có thể download những cái custom software để config cái server của mik
+4. Cho phép có nhiều domain name và những domain name này cùng share 1 IP
+
+--> Lợi ích: 
+1. Rẻ và tiết kiệm chi phí
+2. Resource Isolation with VPS
+3. Flexibility (tùy ý tải các custom software)
+
+--> Disadvantage:
+1. Vì cùng shared resources nên nếu 1 host bị traffic nó sẽ ảnh hưởng đến các hosts còn lại
+2. Limited control
+3. Cũng có thể bị leak resources (security)
+
+*Có 2 loại phổ biến* :
+1. Shared hosting
+
+![image](https://github.com/user-attachments/assets/ab421086-d17b-4cbe-92fa-4d1db49af654)
+
+2. VPS hosting
+
+![image](https://github.com/user-attachments/assets/aa1ae248-6810-42bb-bf6c-15c459ade30b)

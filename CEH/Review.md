@@ -138,7 +138,69 @@ trang kenh14.vn nó đc host bởi vnpt.
 Sau khi tìm hiểu thì thông thường với small business với 1 lượng low traffic sẽ sử dụng shared web hosting, pre-configured software <br>
 basic security feature (SSL) nhưng resources (RAM, CPU, Bandwidth...) lại share với những web khác. --> Tiết kiệm chi phí
 
+# Header Content-Length trong 1 HTTP request / Content multipart/form - data
+## Content-Length header
+> Meaning
+
+Specifies the size of the body của request hay response = bytes. 
+
 Ngược lại đối với những doanh nghiệp lớn hơn sẽ dùng VPS hosting, các resources được isolated với nhau --> bảo đảm tính security hơn <br>
 Có thể handle 1 lượng lớn traffic trong peak seasons. Ngoài ra với root access thì sẽ ko bị limited như shared-hosting.
 
-# Header Content-Length trong 1 HTTP request / Content multipart/form - data
+Example:
+```
+POST /upload HTTP/1.1
+Host: example.com
+Content-Length: 352
+Content-Type: application/json
+
+{
+  "username": "john_doe",
+  "password": "secure_password"
+}
+```
+## Content multipart/form-data
+> Meaning
+ùng cho forms that include file uploads or binary data --> allows he submission of data with different parts
+> When?
+Khi submitting chứa Files(images, documents,...) hoặc Text fields(form inputs, user-submitted data)
+
+Example:
+```html
+<form action="/upload" method="POST" enctype="multipart/form-data">
+  <input type="text" name="username" value="john_doe">
+  <input type="file" name="file1">
+  <input type="submit" value="Upload">
+</form>
+```
+
+HTTP Request:
+```
+POST /upload HTTP/1.1
+Host: example.com
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="username"
+
+john_doe
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file1"; filename="example.jpg"
+Content-Type: image/jpeg
+
+(binary data of the image)
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+```
+
+*Key features:*
+1. Cho phép gửi multiple types of data (text fields, files...) in a single HTTP request
+2. Mỗi part đc seperated bởi 1 boundary string --> distinguish
+
+# Quá trình xác thực SSH server
+1. Client sẽ gửi thông báo muốn kết nối tới ssh server
+2. Các phương pháp xác thực bao gồm: = mkhau, public & private key, 2 face authenticator (OTP)
+3. Thông thường sẽ dùng pp xác thực = public & private key. Lúc này Public key sẽ đc tải lên server và lưu trong <br>
+~/.ssh/authorized_keys của người dùng
+4. Client sẽ dùng private key --> giải mã public key của server
+
+## Cách Keylog mật khẩu ssh 

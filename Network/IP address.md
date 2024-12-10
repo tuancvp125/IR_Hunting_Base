@@ -18,4 +18,35 @@ Phần đầu sẽ là bit nhận dạng class. Có 5 class A,B,C,D,E
 -  Toàn bộ bit 0: ko có nghĩa
 -  Toàn bộ bit = 1: Thông báo nội bộ
 
+# 1
+
+![image](https://github.com/user-attachments/assets/c9ceb0ae-5721-4bd8-ad37-47f5a498d72c)
+
+Answer:
+A & B
+
+# 2
+
+![image](https://github.com/user-attachments/assets/c856bc38-6619-40dc-b296-1b2430c49b13)
+
+Answer:
+
+a c f?
+
+![image](https://github.com/user-attachments/assets/9fdfadf0-1a31-4a0c-a321-fd82039b08ec)
+
+# 3
+
+![image](https://github.com/user-attachments/assets/3abe9a49-e87d-4051-96d8-6c2702e415bc)
+
+Answer:
+
+![image](https://github.com/user-attachments/assets/3def3ebe-6875-4a0d-aca3-58a636436f74)
+
+? Tại sao địa chỉ mạng lại ko gán cho được 1 node mạng mà phải là địa chỉ máy trạm
+
+
+
+
+
 

@@ -18,3 +18,4 @@ Phần đầu sẽ là bit nhận dạng class. Có 5 class A,B,C,D,E
 -  Toàn bộ bit 0: ko có nghĩa
 -  Toàn bộ bit = 1: Thông báo nội bộ
 
+

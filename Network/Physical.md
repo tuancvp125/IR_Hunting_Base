@@ -117,6 +117,113 @@ Switch có thể tìm lỗi...
 
 Answer:
 
+![image](https://github.com/user-attachments/assets/3e111cc6-852f-4492-9c17-2d1d20be7b9d)
+
+
+# 13
+
+![image](https://github.com/user-attachments/assets/60aafd02-27a6-4182-a3ae-99c7663c9d71)
+
+Answer:
+
+![image](https://github.com/user-attachments/assets/08a00ce9-30c3-4441-8dc5-94f27c8036d4)
+
+# 14
+
+![image](https://github.com/user-attachments/assets/c9255dfa-62dd-4f37-84d1-058a026d2483)
+
+Answer:
+
+Tìm kiếm địa chỉ MAC sau khi biết địa chỉ IP
+
+Gợi ý:
+
+![image](https://github.com/user-attachments/assets/953dc671-5c71-4972-be36-ce8630e45364)
+
+# 15
+
+![image](https://github.com/user-attachments/assets/b7ba23b4-19a2-4512-928a-82e6102e6396)
+
+Answer:
+a. MAC có 48 bit
+b. Đúng
+c. Địa chỉ MAC là đc vật lý
+d. Sai
+e. Chuẩn -> Dùng trong tầng liên kết dữ liệu.
+
+# 16
+
+![image](https://github.com/user-attachments/assets/3a1c77c9-7387-4db2-a526-6d72a4349496)
+
+Answer:
+
+![image](https://github.com/user-attachments/assets/6327bad3-0a8b-49e7-b604-0ec83747da02)
+
+# 16
+
+![image](https://github.com/user-attachments/assets/1a803f09-8d06-4086-9e79-b787a53a8814)
+
+Chỉ có CRC để phát hiện vị trí lỗi.
+
+# 17
+
+![image](https://github.com/user-attachments/assets/c8fd8c2b-d709-403f-9808-367216eaedd3)
+
+# 18
+
+![image](https://github.com/user-attachments/assets/37f79896-62df-4b34-bcfa-f070b1cc48d4)
+
+Answer:
+
+![image](https://github.com/user-attachments/assets/6ca4d5d8-88b4-4a6e-abfc-ab7687dc9b33)
+
+# 19
+
+![image](https://github.com/user-attachments/assets/0a5e003d-6824-4f7e-8e41-e081d7eaae59)
+
+Answer:
+
+Fast Ethernet có tốc độ là 100Mbps --> c,d.
+
+# 20
+
+![image](https://github.com/user-attachments/assets/c304e688-0786-4e5b-8694-b2ab88d68ca0)
+
+Answer:
+
+![image](https://github.com/user-attachments/assets/dafd3524-04fa-413d-b029-0ddff6b219c6)
+
+# 21
+
+![image](https://github.com/user-attachments/assets/00545bbc-e35b-45ea-87ab-ba05203b9e48)
+
+Answer:
+
+Các loại mã còn lại là mã phát hiện lỗi.
+
+# 22
+
+![image](https://github.com/user-attachments/assets/39acfaf3-005a-4656-a1b7-b27baa7dd43b)
+
+Answer:
+
+Đáp án đúng là A
+
+![image](https://github.com/user-attachments/assets/820fe3c7-9ad5-4432-b5df-ea633cfec052)
+
+
+# 23
+
+
+
+
+
+
+
+
+
+
+
 
 
 

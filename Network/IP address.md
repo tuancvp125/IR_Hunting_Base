@@ -45,6 +45,79 @@ Answer:
 
 ? Tại sao địa chỉ mạng lại ko gán cho được 1 node mạng mà phải là địa chỉ máy trạm
 
+# 4
+
+![image](https://github.com/user-attachments/assets/4caf4930-1908-46a4-8ed6-e1a11fd2c2fb)
+
+Answer:
+
+2 ^ 5 - 2 = 30 (2 ^ (32 - 27))
+
+# 5
+
+![image](https://github.com/user-attachments/assets/288601d4-c8f0-458c-90cf-8cc4553e9a82)
+
+Answer:
+
+![image](https://github.com/user-attachments/assets/2aa7391f-b9e8-40ad-b7e6-b51a6c5fa687)
+
+# 6
+
+![image](https://github.com/user-attachments/assets/a704c823-cb8e-4ba4-b919-bb7896f9eeb5)
+
+Answer:
+
+![image](https://github.com/user-attachments/assets/b1d4cfd5-3faa-4a40-9afa-e7b9d73cbca8)
+
+![image](https://github.com/user-attachments/assets/af4c2de7-daf9-4d1f-916c-a9b93073f483)
+
+Theo nguyên tắc longest matching thì mik sẽ chọn mặt nạ có subnet lớn nhất.
+
+**Từ các câu subnetmask mik sẽ sdung ảnh này**
+
+![image](https://github.com/user-attachments/assets/1536f8a2-d178-4f19-8bb0-ec443fe684a0)
+
+
+# 7
+
+![image](https://github.com/user-attachments/assets/6b2e3a67-c383-42f9-ac51-8b624028153f)
+
+Answer:
+
+![image](https://github.com/user-attachments/assets/82b2aa99-ddf2-40e8-b0d4-0fc713bec95d)
+
+# 8
+
+![image](https://github.com/user-attachments/assets/5f6a7a6c-eda0-4fa8-8bae-a9e101b9d964)
+
+Answer:
+
+![image](https://github.com/user-attachments/assets/c7926e2a-bd6c-4f43-9d67-89bda83a6e0b)
+
+# 9
+
+![image](https://github.com/user-attachments/assets/e565ab49-9d60-4502-8b7d-5da0ed8a18a1)
+
+Answer:
+
+4 mạng con ứng với 2 bit --> 25 bit dùng để làm networkID, 2 ^ 7 - 2 = 126
+
+# 10
+
+![image](https://github.com/user-attachments/assets/0f5e5c07-c969-48b0-ad34-abc3bc6f8da3)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

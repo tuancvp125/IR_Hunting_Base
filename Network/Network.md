@@ -74,7 +74,7 @@ gói vào phần data.
 
 Answer:
 
-b. Sai. Vì giao thức IP chỉ kiểm tra và phát hiện lỗi
+b. Sai. Vì giao thức IP chỉ kiểm tra và phát hiện lỗi <br>
 c. Sai. Giao thức IP ko có chức năng báo/nhận
 
 # 8
@@ -83,7 +83,7 @@ c. Sai. Giao thức IP ko có chức năng báo/nhận
 
 Answer:
 
-b. Sai vì quá trình định tuyến phải thực hiện trước khi tìm cổng chuyển tiếp gói IP đi
+b. Sai vì quá trình định tuyến phải thực hiện trước khi tìm cổng chuyển tiếp gói IP đi <br>
 c. Đúng. Báo lỗi = ICMP
 
 # 9
@@ -92,7 +92,7 @@ c. Đúng. Báo lỗi = ICMP
 
 Answer:
 
-![image](https://github.com/user-attachments/assets/bf8e89a9-07c7-4880-b74f-3050c06584ff)
+Chọn 1 đáp án (Bổ sung địa chỉ đích vào bảng chuyển tiếp nếu chưa biết).
 
 # 10
 
@@ -140,11 +140,11 @@ Answer:
 
 Answer:
 
-A. Mỗi nút không thu thập thông tin định tuyến từ tất cả các nút trong mạng???
-B. Đúng dùng Bellman-Ford chuyên dùng cho định tuyến theo vector khoảng cách
+A. Mỗi nút không thu thập thông tin định tuyến từ tất cả các nút trong mạng??? <br>
+B. Đúng dùng Bellman-Ford chuyên dùng cho định tuyến theo vector khoảng cách <br>
 
 ? Khi nhận được vector khoảng cách từ hàng xóm, node đó sẽ tính toán lại vector khoảng cách của nó <br>
-sau đó lại gửi đi cho hàng xóm. Tức là Gửi(Sending) chứ ko phải chuyển tiếp (Forwading)...
+sau đó lại gửi đi cho hàng xóm. Tức là Gửi(Sending) chứ ko phải chuyển tiếp (Forwading)... <br>
 
 E. Định tuyến theo vector khoảng cách (có) phụ thuộc vào số liên kết giữa các nút.
 
@@ -156,7 +156,7 @@ Answer:
 
 ![image](https://github.com/user-attachments/assets/4da0e850-4178-4eab-a664-6af2191bb57d)
 
-Không lan truyền vector khoảng cách.
+Không lan truyền vector khoảng cách. <br>
 Vector khoảng cách chỉ có thông tin về khoảng cách, đích đến nhưng ko có thông tin về liên kết --> ko xây dựng đc theo sơ đồ mạng
 
 # 17
@@ -169,9 +169,8 @@ Vector khoảng cách chỉ có thông tin về khoảng cách, đích đến nh
 
 Answer:
 
-b. Thay vì dùng Bellman-Ford, mik sử dụng Dijkstra để tìm đường đi ngắn nhất
-c. Mỗi node ko thể tự xây dựng tình trạng (topology) của mạng mà thu thập tất cả các liên kết <br>
-khác trong mạng
+b. Thay vì dùng Bellman-Ford, mik sử dụng Dijkstra để tìm đường đi ngắn nhất <br>
+c. Mỗi node ko thể tự xây dựng tình trạng (topology) của mạng mà thu thập tất cả các liên kết khác trong mạng
 
 # 19
 
@@ -223,11 +222,11 @@ BGP là định tuyến ngoại vùng.
 Answer:
 
 OSPF: Là giao thức định tuyến theo trạng thái liên kết (ko pải vector-khoảng cách)
-A. Đúng
-B. Đúng
-C. Sai (đặc điểm của định tuyến theo vector-khoảng cách)
-D. Đúng
-E. Đúng
+A. Đúng <br>
+B. Đúng <br>
+C. Sai (đặc điểm của định tuyến theo vector-khoảng cách) <br>
+D. Đúng <br>
+E. Đúng <br>
 
 # 25
 
@@ -277,7 +276,7 @@ Answer: AS(BGP)
 Answer:
 RIPv2, OSPF
 
-Ripv1 chỉ hỗ trợ mạng phân lớp
+Ripv1 chỉ hỗ trợ mạng phân lớp <br>
 BGP --> định tuyến ngoại vùng
 
 # 32

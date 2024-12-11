@@ -88,6 +88,231 @@ B. Đúng --> hủy gói tin <br>
 D. ko có báo nhận <br>
 C. ko gửi lại để sửa. <br>
 
+# 10
+
+![image](https://github.com/user-attachments/assets/899fd204-545b-4fa8-8af5-e37fbede1d3e)
+
+TCP sẽ được gửi lại khi
+-  Gói tin bị lỗi
+-  3 ACK có giá trị khác nhau đc gửi đến
+-  Xảy ra timeout
+
+# 11
+
+![image](https://github.com/user-attachments/assets/97559771-bf3b-4167-9aec-edf25d75edb1)
+
+Answer:
+
+![image](https://github.com/user-attachments/assets/5e22c9fe-18d7-4565-8d76-24572c45a74c)
+
+Thiết lập cờ SYN là để thiết lập liên kết.
+
+# 12
+
+![image](https://github.com/user-attachments/assets/3db3b5af-ea7a-49de-84cb-ad91ba34d052)
+
+Answer:
+
+Swnd : Kích thước dữ liệu tối đa (Bên gửi có thể gửi) <br>
+Swnd <= min(Rwnd, Cwnd) <br>
+Rwnd : Kích thước cửa sổ nhận --> số kích thước dữ liệu tối đa bên nhận có thể nhận <br>
+Cwnd : Kích thước cửa sổ kiểm soát tắt nghẽn <br>
+
+--> Đáp án sẽ là C
+
+# 13
+
+![image](https://github.com/user-attachments/assets/6c8c923e-6f45-47db-a0e4-1bf0d0d08b08)
+
+Answer:
+
+![image](https://github.com/user-attachments/assets/bacbba34-5aee-432f-8b6d-c6f3d304d4ad)
+
+--> Chỉ cần quan tâm đến 16 bit sau là được
+
+Cổng 25 là SMTP
+
+# 14
+
+![image](https://github.com/user-attachments/assets/d34ae765-467b-4117-9c8b-37ef7f48300c)
+
+Answer:
+
+Giá trị checksum để phát hiện lỗi gói tin
+
+# 15
+
+![image](https://github.com/user-attachments/assets/caf7d0a4-6758-42e4-837c-5a69e7c0f696)
+
+Answer:
+
+Trường checksum trong TCP có giá trị 16 bit --> Sử dụng checksum 16 bit
+
+# 16
+
+![image](https://github.com/user-attachments/assets/2565342c-6bd5-4c79-809f-c718c1924d7a)
+
+Answer:
+
+Báo kết thúc gửi liên kết. Ko phải nhận
+
+# 17
+
+![image](https://github.com/user-attachments/assets/bcbfa3d4-d8a6-4e57-bf64-580f00aed500)
+
+Answer:
+
+A. 2 host A & B khi kết nối tới C có thể dùng 1 cổng C để thiết lập 2 liên kết đến 2 host này. <br>
+B. Sai. Hoàn toàn có thể sử dụng số hiệu cổng giống nhau <br>
+C. Phát hiện xảy ra tắc nghẽn ở 1 bên thì chỉ cần đóng liên kết slow start ở cổng đố <br>
+D. Đúng. Sử dụng 2 socket khác nhau để liên kết A và B <br>
+E. Giá trị cửa sổ nhận cho biết số byte có thể nhận được tối đa. Mà giá trị này đại diện cho <br>
+buffer còn trống
+
+# 18
+
+![image](https://github.com/user-attachments/assets/8a02cd5b-612e-470a-94bb-54a5c0f6bdbe)
+
+Answer:
+
+B. Loại Bỏ gói tin <br>
+C. Gửi lại ACK xác nhận các gói tin trước đó --> báo gói tin hiện tại đang bị lỗi <br>
+
+# 19
+
+![image](https://github.com/user-attachments/assets/f863c207-9e74-4fd0-b234-724b142bd079)
+
+Answer:
+
+A. Chính là phát hiện sớm tắc nghẽn <br>
+D. Đây là cơ chế pipeline của TCP
+
+![image](https://github.com/user-attachments/assets/fee99e87-ce2f-47f8-9df4-b073f894fec5)
+
+# 20
+
+![image](https://github.com/user-attachments/assets/766c166d-e48c-4203-be0a-12280cdd2cbc)
+
+Answer:
+
+2 giai đoạn: Slow Start và tránh tắc nghẽn
+
+![image](https://github.com/user-attachments/assets/3f032ae5-70c2-45ad-af0f-6f601758e80f)
+
+A. Có thực hiện <br>
+B. Có thực hiện (khởi tạo slow start) <br>
+C. Kích thước cửa sổ kiểm soát sẽ tăng tuyến tính chứ ko giữ nguyên <br>
+D. Có thực hiện
+
+# 21
+
+![image](https://github.com/user-attachments/assets/4b4df280-4bf3-45ef-b581-92ec8577318c)
+
+Answer:
+
+![image](https://github.com/user-attachments/assets/c03f3bab-f115-4fe2-a270-44ada0d36080)
+
+A. Chuẩn, Kích thước cửa sổ kiếm soát sẽ tăng gấp đôi khi gửi thành công trong giai đoạn Slow-Start <br>
+B. Giai đoạn tránh tắc nghẽn (Từ slowstart --> timeout) vẫn tăng <br>
+C. Sai. Khi có time out phải bắt đầu ở slow-start <br>
+D. Khi bắt đầu slow-start, kích thước cửa sổ ks tắc nghẽn là 1ms (đúng) <br>
+
+![image](https://github.com/user-attachments/assets/76e7e92b-91d6-42f3-8d94-ed517a558b9e)
+
+# 22
+
+![image](https://github.com/user-attachments/assets/73a9a50b-943d-4531-8d34-99f329141ff8)
+
+Answer:
+
+Lượt 10 và lượt 23
+
+# 23
+
+![image](https://github.com/user-attachments/assets/9b9e88b8-af7a-4164-824c-f17857e1ddcb)
+
+Answer:
+
+Giai đoạn tránh tắc nghẽn thì cứ tăng tuyến tính mà chọn
+
+Chọn C
+
+# 24
+
+![image](https://github.com/user-attachments/assets/55720ad5-c606-4d1d-8647-c167ba982bca)
+
+Answer:
+
+Slow-start - 1 (9 & 22)
+
+# 25
+
+![image](https://github.com/user-attachments/assets/6d1ea0ab-abd0-4ef6-b2f4-2be455dc1b29)
+
+Answer:
+
+B. Phải hủy gói tin khi gói tin bị lỗi <br>
+C. Gửi lại gói tin với ACK = 5600 vì gói tin bị lỗi chứ ko pải là (5600 + 1400) --> đây là <br>
+báo nhận gói tin thành công
+
+
+# 26
+
+![image](https://github.com/user-attachments/assets/d79b0f20-4352-4f19-9e18-104d2fdbfa48)
+
+Answer:
+
+Cứ time out là sẽ quay về với giá trị của cửa sổ kiểm soát tắc nghẽn 1mss( 1400)
+
+# 27
+
+![image](https://github.com/user-attachments/assets/b9b0a6a9-b0f3-4a4e-83eb-cae78e09d479)
+
+Answer:
+
+Khi nhận được 3 ACK thì sẽ xuất hiện hồi phục nhanh, giá trị ngưỡng = 1/2 giá trị 
+
+![image](https://github.com/user-attachments/assets/bbbbe3b0-626f-4010-8ef1-510fb2c53cbd)
+
+# 28
+
+![image](https://github.com/user-attachments/assets/fa9b8860-361a-4390-ad1f-8319d60ef76c)
+
+Answer:
+
+A. Chuẩn, Bên gửi sẽ tính toán lại giá trị của cửa sổ kiếm soát tắc nghẽn <br>
+B. Kiếm soát cửa sổ kiểm soát luồng là do bên nhận tính toán <br>
+C. Phát lại dữ liệu đã gửi mà chưa nhận đc ACK
+
+# 29
+
+![image](https://github.com/user-attachments/assets/f8fd2913-5103-423c-81cd-4fdae3f3e8b3)
+
+Answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

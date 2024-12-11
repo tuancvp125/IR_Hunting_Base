@@ -83,10 +83,10 @@ Answer:
 
 Answer:
 
-A. UDP ko bt giao thức ở tầng trên sdung giao thức j --> ko thể gửi lên cho tầng trên sửa lỗi
-B. Đúng --> hủy gói tin
-D. ko có báo nhận
-C. ko gửi lại để sửa.
+A. UDP ko bt giao thức ở tầng trên sdung giao thức j --> ko thể gửi lên cho tầng trên sửa lỗi <br>
+B. Đúng --> hủy gói tin <br>
+D. ko có báo nhận <br>
+C. ko gửi lại để sửa. <br>
 
 
 

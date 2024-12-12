@@ -201,6 +201,7 @@ d. Băng thông ko phụ thuộc vào tải
 
 # 21
 
+![image](https://github.com/user-attachments/assets/cc9d22ae-36c8-4a1a-a230-f98224b7853e)
 
 
 

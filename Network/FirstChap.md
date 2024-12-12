@@ -203,7 +203,9 @@ d. Băng thông ko phụ thuộc vào tải
 
 ![image](https://github.com/user-attachments/assets/cc9d22ae-36c8-4a1a-a230-f98224b7853e)
 
+# 22 Ưu điểm của kiến trúc phân tầng
 
+![image](https://github.com/user-attachments/assets/343b448d-34b4-4c56-b96b-f12c12d1b218)
 
 
 

@@ -43,7 +43,7 @@ Answer:
 
 ![image](https://github.com/user-attachments/assets/3def3ebe-6875-4a0d-aca3-58a636436f74)
 
-? Tại sao địa chỉ mạng lại ko gán cho được 1 node mạng mà phải là địa chỉ máy trạm
+Cái này 1 nút mạng là hostID
 
 # 4
 
